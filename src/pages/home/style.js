@@ -2,9 +2,10 @@ import styled from "styled-components/native";
 
 export const Container = styled.View`
     flex: 1;
-    border: 5px solid deeppink;
-    background-color: pink;
-    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 64px 24px;
 `
 
 export const Greetings = styled.View`

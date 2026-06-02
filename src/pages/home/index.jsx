@@ -1,4 +1,5 @@
 import {Container, Greetings, GreetingsAvatar, GreetingsSpan, GreetingsText, GreetingsTitle,} from "./style";
+import {ScheduleCard} from "../../components/scheduleCard";
 
 export const Home = () => {
     return (
@@ -10,6 +11,7 @@ export const Home = () => {
                 </GreetingsTitle>
                 <GreetingsAvatar source={require('../../assets/avatar.png')} />
             </Greetings>
+            <ScheduleCard/>
         </Container>
     )
 }
